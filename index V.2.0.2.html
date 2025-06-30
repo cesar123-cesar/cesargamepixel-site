@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CesarGamePixel - App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to bottom, #0f0f0f, #1a1a1a);
+      color: white;
+    }
+
+    header {
+      background: radial-gradient(circle, #ff0000, #b30000);
+      padding: 25px 10px;
+      text-align: center;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      box-shadow: 0 4px 15px rgba(255, 0, 0, 0.5);
+    }
+
+    a.btn-sub, .btn-download {
+      display: block;
+      margin: 25px auto;
+      background: linear-gradient(90deg, #ff0055, #ff5500);
+      color: white;
+      padding: 14px 28px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      text-align: center;
+      width: fit-content;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    a.btn-sub:hover, .btn-download:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 12px #ff0040;
+    }
+
+    .video-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+      padding: 30px;
+    }
+
+    .video-box {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border: 3px solid #ff0055;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 12px rgba(255, 0, 85, 0.6);
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .section {
+      padding: 30px;
+      background: #1e1e2f;
+      border-top: 2px solid #ff0040;
+      border-bottom: 2px solid #ff0040;
+    }
+
+    .section h2 {
+      color: #00ffff;
+      font-family: 'Orbitron', sans-serif;
+      margin-bottom: 20px;
+      font-size: 22px;
+    }
+
+    .youtuber {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      background-color: #2a2a3d;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 0 8px rgba(0, 255, 255, 0.4);
+      margin-bottom: 15px;
+    }
+
+    .youtuber img {
+      border-radius: 50%;
+      border: 2px solid #00ffff;
+    }
+
+    .btn-contact {
+      background: #00c853;
+      color: white;
+      padding: 8px 16px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      margin-top: 5px;
+      display: inline-block;
+      transition: background 0.3s ease;
+    }
+
+    .btn-contact:hover {
+      background: #00a040;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
+      font-size: 14px;
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+
+  <header>🎮 CesarGamePixel</header>
+
+  <a class="btn-sub" href="https://www.youtube.com/@cesargamepixel?sub_confirmation=1" target="_blank">
+    🚀 ¡Suscríbete al canal!
+  </a>
+
+  <a class="btn-download" href="https://sub4unlock.io/KGXYu" target="_blank">
+    📚 Descargar mi libro exclusivo
+  </a>
+
+  <!-- 🤝 SECCIÓN AMIGOS YOUTUBERS -->
+  <div class="section">
+    <h2>🤝 Amigos YouTubers</h2>
+
+    <div class="youtuber">
+      <img src="https://yt3.googleusercontent.com/fsVcDsrtkMpPCwqakcwhiZ7moahdQ4oT4xXBD428NPVur2H513U7x9ZH7GcPyG9SCVPqM2Oyxbc=s88-c-k-c0x00ffffff-no-rj" alt="derekjuega" width="60" height="60">
+      <div>
+        <strong>DEREK JUEGA</strong><br>
+        <a href="https://www.youtube.com/@DereckCuevas-wz2me" target="_blank" class="btn-contact">Ver canal</a>
+      </div>
+    </div>
+
+    <!-- Puedes agregar más youtubers aquí -->
+  </div>
+
+  <!-- 🎥 VIDEOS -->
+  <div class="video-container">
+    <div class="video-box">
+      <iframe src="https://www.youtube.com/embed/sxAMwupnTdA" allowfullscreen></iframe>
+    </div>
+    <div class="video-box">
+      <iframe src="https://www.youtube.com/embed/LG-wgYr2eL4?start=5" allowfullscreen></iframe>
+    </div>
+    <div class="video-box">
+      <iframe src="https://www.youtube.com/embed/3XGPyL-pd4Q" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 CesarGamePixel - Todos los derechos reservados
+  </footer>
+
+</body>
+</html>
