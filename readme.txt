@@ -8,7 +8,7 @@ Archivos incluidos:
 index.html → mi primera version de mi web
 index V2.0.1.html → mi segunda version de mi web con mejoras y mas moderno
 ¿Cómo funciona?
-Cuando visitas este sitio, se carga el archivo index.html, donde puedes elegir entre las dos versiones. Solo necesitas un navegador para verlo, no hace falta instalar nada.
+Cuando visitas este sitio, se carga el archivo index.html, donde puedes elegir entre las dos versiones. Solo necesitas un navegador para verlo,  hace falta instalar nada.
 
 Información adicional
 Este sitio no tiene funciones avanzadas
